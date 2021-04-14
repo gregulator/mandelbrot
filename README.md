@@ -8,5 +8,5 @@ On many linux systems, you can compile, run and convert to a PNG file with this
 command:
 
 ```
-gcc -std=c99 mandelbrot.c -lm -o mandelbrot | ./mandelbrot | convert - mandelbrot.png
+gcc -std=c99 mandelbrot.c -lm -o mandelbrot && ./mandelbrot | convert - mandelbrot.png
 ```
